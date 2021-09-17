@@ -62,7 +62,7 @@ export default {
         return {
             coins: [],
             filtradasMonedas: [],
-            titles: [ "#", "Coin", "Precio", "Precio Cambio", "24hs Volumen" ],
+            titles: [ "#", "Moneda", "Precio", "Precio Cambio", "24hs Volumen" ],
             monedaBuscada:'',
         };
     },
