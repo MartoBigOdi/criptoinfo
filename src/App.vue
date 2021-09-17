@@ -10,7 +10,7 @@
     <div class="row">
 
       <input type="text" class="form-control bg-dark text-light rounded-0 border-0 my-2" 
-      placeholder="Bucar Moneda"
+      placeholder="Buscar Moneda"
        @keyup="buscarMoneda()"
        v-model="monedaBuscada"
       >
