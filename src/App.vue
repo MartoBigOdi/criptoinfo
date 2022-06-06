@@ -30,7 +30,7 @@
                     </td>
                     <td>
                       <img :src="coin.image" style="width:2rem">
-                       <span>
+                       <span> | 
                     {{ coin.name }}
                        </span>
                        <span class ="ms-2 text-uppercaes text-muted">
