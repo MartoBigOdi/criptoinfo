@@ -29,7 +29,7 @@
                       {{index + 1}}
                     </td>
                     <td>
-                      <img :src="coin.image" style="width:2rem, margin: 4px">
+                      <img :src="coin.image" style="width:2rem, padding:4px">
                        <span>
                     {{ coin.name }}
                        </span>
