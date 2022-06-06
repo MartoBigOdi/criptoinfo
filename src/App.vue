@@ -29,7 +29,7 @@
                       {{index + 1}}
                     </td>
                     <td>
-                      <img :src="coin.image" style="width:2rem">
+                      <img :src="coin.image" style="width:2rem, margin: 4px">
                        <span>
                     {{ coin.name }}
                        </span>
@@ -80,8 +80,7 @@ export default {
          buscarMoneda(){ //Acá lo que hacemos es filtrar los datos por minisculas o por menos letras que el total de letras de la palabra
             this.filtradasMonedas = this.coins.filter((coin) => 
 
-              coin.name.toLowerCase().includes(this.monedaBuscada.toLowerCase()) || 
-              coin.symbol.toLowerCase().includes(this.monedaBuscada.toLowerCase()));
+            coin.name.toLowerCase().includes(this.monedaBuscada.toLowerCase()) || coin.symbol.toLowerCase().includes(this.monedaBuscada.toLowerCase()));
       },
    },
 };
